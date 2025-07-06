@@ -6,7 +6,7 @@ The system administrator has the highest level of access in Mentor LMS, with com
 
 After logging in as an administrator, you'll have access to a powerful dashboard that provides quick access to key metrics and platform management features.
 
-<!-- ![Administrator Dashboard](/public/configuration/admin-dashboard.png) -->
+<!-- ![Administrator Dashboard](/configuration/admin-dashboard.png) -->
 
 ## Administrator Capabilities
 

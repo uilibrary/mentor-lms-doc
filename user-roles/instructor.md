@@ -18,7 +18,7 @@ Once approved, you'll gain access to the instructor dashboard and course creatio
 
 The instructor dashboard provides a comprehensive overview of your teaching activities and performance metrics.
 
-<!-- ![Instructor Dashboard](/public/configuration/instructor-dashboard.png) -->
+<!-- ![Instructor Dashboard](/configuration/instructor-dashboard.png) -->
 
 The main menu of the instructor dashboard includes:
 
@@ -50,6 +50,7 @@ The main menu of the instructor dashboard includes:
    - Organize sections using **Sort Section**
 
 4. Preview your course:
+
    - Use **Course Preview** to see how students will view your content
    - Test the student experience with **Course Player**
 

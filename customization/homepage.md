@@ -8,7 +8,7 @@ Mentor LMS provides powerful tools to customize your homepage without requiring 
 2. Visit the public homepage of your LMS
 3. Click the **Customize** button in the top navigation bar
 
-![Accessing Customization](/home/jamir-hossain/Works/laravel/mentor-lms-doc/public/customization/home/step-1.png)
+![Accessing Customization](/customization/home/step-1.png)
 
 ## Homepage Customization Process
 
@@ -20,7 +20,7 @@ After clicking the Customize button:
 2. A "Back" button will replace the Customize button, allowing you to exit customization mode
 3. You'll see visual indicators highlighting editable sections
 
-![Customization Mode](/home/jamir-hossain/Works/laravel/mentor-lms-doc/public/customization/home/step-2.png)
+![Customization Mode](/customization/home/step-2.png)
 
 ### Step 2: Edit Individual Sections
 
@@ -30,7 +30,7 @@ To edit specific sections of your homepage:
 2. Click the **pencil icon** that appears on the right side of the section
 3. A section edit form will open in a popup window
 
-![Section Edit Form](/home/jamir-hossain/Works/laravel/mentor-lms-doc/public/customization/home/step-3.png)
+![Section Edit Form](/customization/home/step-3.png)
 
 ### Step 3: Modify Section Content
 
@@ -54,7 +54,7 @@ To control which sections appear on your homepage and their order:
 4. Change section order by dragging them using the handle on the left side
 5. Click the X to close when finished
 
-![Page Sections Manager](/home/jamir-hossain/Works/laravel/mentor-lms-doc/public/customization/home/step-4.png)
+![Page Sections Manager](/customization/home/step-4.png)
 
 ## Best Practices for Homepage Design
 

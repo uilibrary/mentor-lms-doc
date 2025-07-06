@@ -4,7 +4,7 @@ Mentor LMS is designed to serve multiple stakeholders in the educational ecosyst
 
 ## For Educational Institutions
 
-<!-- ![Educational Institutions](/public/configuration/institutions.png) -->
+<!-- ![Educational Institutions](/configuration/institutions.png) -->
 
 Educational institutions such as schools, colleges, and universities can leverage Mentor LMS to:
 

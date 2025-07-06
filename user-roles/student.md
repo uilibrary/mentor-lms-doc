@@ -6,7 +6,7 @@ Students are the primary users of the Mentor LMS platform, accessing and engagin
 
 After logging in, students are greeted with a personalized dashboard that displays their enrolled courses and account information.
 
-<!-- ![Student Dashboard](/public/configuration/student-dashboard.png) -->
+<!-- ![Student Dashboard](/configuration/student-dashboard.png) -->
 
 The student interface includes:
 

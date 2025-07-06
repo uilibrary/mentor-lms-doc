@@ -4,7 +4,7 @@ Mentor LMS provides a rich set of features designed to create a comprehensive le
 
 ## Course Management
 
-<!-- ![Course Management](/public/configuration/course-management.png) -->
+<!-- ![Course Management](/configuration/course-management.png) -->
 
 - **Course Creation**: Intuitive interface for building structured courses
 - **Curriculum Builder**: Organize content into sections and lessons
