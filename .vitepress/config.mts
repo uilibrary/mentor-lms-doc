@@ -22,6 +22,7 @@ export default defineConfig({
           { text: "Overview", link: "/introduction/" },
           { text: "Core Features", link: "/introduction/features" },
           { text: "Who Benefits", link: "/introduction/benefits" },
+          { text: "Upcoming Features", link: "/introduction/upcoming-features" },
         ],
       },
       {
