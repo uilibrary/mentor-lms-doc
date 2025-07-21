@@ -22,7 +22,10 @@ export default defineConfig({
           { text: "Overview", link: "/introduction/" },
           { text: "Core Features", link: "/introduction/features" },
           { text: "Who Benefits", link: "/introduction/benefits" },
-          { text: "Upcoming Features", link: "/introduction/upcoming-features" },
+          {
+            text: "Upcoming Features",
+            link: "/introduction/upcoming-features",
+          },
         ],
       },
       {
@@ -50,6 +53,10 @@ export default defineConfig({
           {
             text: "Installation Service",
             link: "/installation/installation-service",
+          },
+          {
+            text: "Version Update",
+            link: "/installation/version-update",
           },
         ],
       },
