@@ -43,7 +43,7 @@ Before running the web installer, you need to:
 After extraction, you should see the following directory structure:
 
 ```
-academix-lms/
+mentor-lms/
 ├── app/
 ├── bootstrap/
 ├── config/
