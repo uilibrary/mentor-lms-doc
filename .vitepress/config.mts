@@ -6,7 +6,10 @@ export default defineConfig({
   description: "Comprehensive Learning Management System Documentation",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/logo.png",
+    logo: {
+      light: "/logo-light.png",
+      dark: "/logo-dark.png",
+    },
     siteTitle: false,
     nav: [
       { text: "Home", link: "/" },
@@ -54,10 +57,6 @@ export default defineConfig({
             text: "Installation Service",
             link: "/installation/installation-service",
           },
-          {
-            text: "Version Update",
-            link: "/installation/version-update",
-          },
         ],
       },
       {
@@ -69,6 +68,7 @@ export default defineConfig({
           { text: "Storage Setup", link: "/configuration/storage" },
           { text: "Payment Gateways", link: "/configuration/payment" },
           { text: "SMTP Settings", link: "/configuration/smtp" },
+          { text: "Zoom Configuration", link: "/configuration/zoom" },
           { text: "Google Authentication", link: "/configuration/google-auth" },
         ],
       },
@@ -77,8 +77,19 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "Homepage Customization", link: "/customization/homepage" },
-          // { text: "Managing Categories", link: "/customization/categories" },
-          // { text: "Instructor Settings", link: "/customization/instructors" },
+        ],
+      },
+      {
+        text: "Maintenance",
+        collapsed: false,
+        items: [
+          { text: "Application Update", link: "/maintenance/app-update" },
+          { text: "Application Backup", link: "/maintenance/app-backup" },
+          { text: "Application Restore", link: "/maintenance/app-restore" },
+          {
+            text: "Application Manual Update",
+            link: "/maintenance/app-manual-update",
+          },
         ],
       },
       {
