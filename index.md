@@ -44,7 +44,7 @@ This documentation will guide you through installation, configuration, and usage
 
 - [System Requirements](/installation/requirements)
 - [Installation Guide](/installation/purchase-extract)
-- [Version Update Guide](/installation/version-update)
+- [Version Update Guide](/maintenance/app-update)
 - [Configuration Steps](/configuration/system-info)
 - [User Roles Overview](/user-roles/administrator)
 - [Troubleshooting Common Issues](/troubleshooting/common-problems)
