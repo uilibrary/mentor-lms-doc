@@ -2,27 +2,21 @@
 
 Mentor LMS includes a user-friendly web installer that guides you through the setup process. This page walks you through each step of the web installation process.
 
-## Accessing the Web Installer
+### Database Creation & Web Installer
 
-1. Open your web browser and navigate to your domain where you've placed the Mentor LMS files
-2. You'll automatically be redirected to the installer if it's a fresh installation
-3. If not automatically redirected, visit: `https://your-domain.com/install`
+1. Create a new database for Mentor LMS.
+2. Collect the database name, username, and password.
+3. Open your web browser and navigate to your app domain.
+4. It will automatically redirect you to the web installer wizard.
+5. If not automatically redirected, visit: `https://your-domain.com/install/step-1`.
 
 ## Installation Steps
 
-### Step 1: Welcome Screen
-
-The first screen welcomes you to the Mentor LMS installer and explains the installation process.
-
-![Welcome Screen](/installation/install-step-1.png)
-
-Click "Let's Go" to begin the installation process.
-
-### Step 2: Server Requirements Check
+### Step 1: Server Requirements Check
 
 The installer will check if your server meets all the necessary requirements for running Mentor LMS.
 
-![Server Requirements](/installation/install-step-2.png)
+![Welcome Screen](/installation/install-step-1.png)
 
 The system will check:
 
@@ -33,11 +27,11 @@ The system will check:
 
 If any requirements are not met, they will be marked in red. You must resolve these issues before proceeding.
 
-### Step 3: Application Settings
+### Step 2: Application Settings
 
 In this step, you'll configure basic application settings.
 
-![Application Settings](/installation/install-step-3.1.png)
+![Server Requirements](/installation/install-step-2.png)
 
 Fill in the following information:
 
@@ -47,15 +41,13 @@ Fill in the following information:
 - **Timezone**: Select your local timezone
 - **Purchase Code**: Enter the purchase code you received after buying Mentor LMS
 
-![License Verification](/installation/install-step-3.2.png)
-
 The system will verify your purchase code online before proceeding.
 
-### Step 4: Database Configuration
+### Step 3: Database Configuration
 
 Now you'll connect your database to the application.
 
-![Database Configuration](/installation/install-step-4.png)
+![Application Settings](/installation/install-step-3.1.png)
 
 Enter your database details:
 
@@ -68,62 +60,51 @@ Enter your database details:
 
 The installer will test the connection before proceeding.
 
-### Step 5: Administrator Account Setup
+![License Verification](/installation/install-step-3.2.png)
+
+### Step 4: Administrator Account Setup
 
 Create the primary administrator account for managing the LMS.
 
-![Admin Account Setup](/installation/install-step-5.1.png)
+![Database Configuration](/installation/install-step-4.png)
 
-Fill in:
+Provide the:
 
 - **Admin Name**: Your full name
 - **Admin Email**: Your email address (used for login)
 - **Admin Password**: Create a secure password
 - **Confirm Password**: Re-enter your password
 
-On the same screen, you'll select the platform mode:
+### Step 5: Installation Complete
 
-![Platform Mode](/installation/install-step-5.2.png)
+The final screen confirms the successful installation of Mentor LMS. On this screen, you'll select the platform mode:
 
-- **Unified Mode**: Only administrators can create courses
+![Admin Account Setup](/installation/install-step-5.1.png)
+
+- **Administrative Mode**: Only administrators can create courses
 - **Collaborative Mode**: Approved instructors can create and sell courses
 
-### Step 6: Installation Complete
-
-The final screen confirms the successful installation of Mentor LMS.
+Now you have to finally click on "Confirm" button to complete the installation process. When you will click, you will seed installation completing progress. Once it completed you will redirect to the home page of MentorLMS automatically.
 
 ![Installation Complete](/installation/install-step-6.png)
 
-You'll see:
-
-- Confirmation of successful installation
-- Links to the frontend and admin dashboard
-- Your admin login credentials
-
-Click "Go to Admin Dashboard" to begin configuring your new LMS.
-
-## Post-Installation Steps
-
-After completing the web installer, there are several important configuration steps to complete:
-
-1. [Configure System Information](/configuration/system-info)
-2. [Select a Homepage Template](/configuration/homepage)
-3. [Set Up Storage Options](/configuration/storage)
-4. [Configure Payment Gateways](/configuration/payment)
-5. [Set Up SMTP Email](/configuration/smtp)
-6. [Configure Google Authentication](/configuration/google-auth)
-
-::: warning Important
-For security reasons, the installer directory should be removed after successful installation. The system will attempt to do this automatically, but verify it has been removed or delete it manually.
-:::
-
 ## Troubleshooting Installation Issues
 
-If you encounter issues during installation:
+If you encounter any issues during installation or if the application doesn't run properly:
 
-- Check the [system requirements](/installation/requirements) again
-- Verify database credentials are correct
-- Ensure proper file permissions
-- Check PHP version and extensions
+1. **Try refreshing the installation**:
 
-For more detailed troubleshooting assistance, visit the [Installation Issues](/troubleshooting/installation) page.
+   - Visit: `https://your-domain.com/install/refresh`
+   - This will restart the installation process
+
+2. **Still having trouble?**
+
+   - Clear browser cache and try again
+   - Check the error logs in `storage/logs/`
+   - Contact our support team with the error details
+
+3. **Contact our support team**
+
+   - Visit our support page and create a support ticket: [Support](https://support.ui-lib.com)
+   - Provide the error details and share the attachments
+   - Our support team will help you to resolve the issues

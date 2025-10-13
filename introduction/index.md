@@ -16,14 +16,14 @@ Developed with the latest Laravel technology, Mentor LMS offers a powerful yet f
 - **Comprehensive Reporting**: Track student progress, course performance, and financial metrics
 - **Customizable Platform**: Adapt the appearance and functionality to match your brand
 
-## Technical Foundation
+## Tools and Frameworks
 
 Mentor LMS is built on the Laravel framework, utilizing:
 
-- Laravel 10.x
-- PHP 8.2+
-- MVC architecture
-- RESTful API design
-- Modern responsive frontend
+- Laravel
+- Inertia
+- React
+- Tailwind CSS
+- Shadcn/UI
 
 Whether you're managing a large educational institution or starting as an individual instructor, Mentor LMS provides the tools you need to create an engaging learning environment for your students.

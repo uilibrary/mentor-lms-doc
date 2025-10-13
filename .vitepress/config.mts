@@ -25,10 +25,10 @@ export default defineConfig({
           { text: "Overview", link: "/introduction/" },
           { text: "Core Features", link: "/introduction/features" },
           { text: "Who Benefits", link: "/introduction/benefits" },
-          {
-            text: "Upcoming Features",
-            link: "/introduction/upcoming-features",
-          },
+          // {
+          //   text: "Upcoming Features",
+          //   link: "/introduction/upcoming-features",
+          // },
         ],
       },
       {
@@ -53,10 +53,10 @@ export default defineConfig({
             text: "Step 2: Web Installer",
             link: "/installation/web-installer",
           },
-          {
-            text: "Installation Service",
-            link: "/installation/installation-service",
-          },
+          // {
+          //   text: "Installation Service",
+          //   link: "/installation/installation-service",
+          // },
         ],
       },
       {
