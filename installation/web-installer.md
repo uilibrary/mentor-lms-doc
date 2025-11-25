@@ -2,13 +2,13 @@
 
 Mentor LMS includes a user-friendly web installer that guides you through the setup process. This page walks you through each step of the web installation process.
 
-### Database Creation & Web Installer
+<!-- ### Database Creation & Web Installer
 
 1. Create a new database for Mentor LMS.
 2. Collect the database name, username, and password.
 3. Open your web browser and navigate to your app domain.
 4. It will automatically redirect you to the web installer wizard.
-5. If not automatically redirected, visit: `https://your-domain.com/install/step-1`.
+5. If not automatically redirected, visit: `https://your-domain.com/install/step-1`. -->
 
 ## Installation Steps
 
@@ -101,7 +101,8 @@ If you encounter any issues during installation or if the application doesn't ru
 
    - Clear browser cache and try again
    - Check the error logs in `storage/logs/`
-   - Contact our support team with the error details
+   - Check the `installed` file is exist or not into `storage/app/public/`
+   - If exist, then you have to delete `installed` file from `storage/app/public/`
 
 3. **Contact our support team**
 

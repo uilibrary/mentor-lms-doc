@@ -46,17 +46,21 @@ export default defineConfig({
         items: [
           { text: "Requirements", link: "/installation/requirements" },
           {
-            text: "Step 1: Purchase & Extract",
-            link: "/installation/purchase-extract",
+            text: "Localhost Installation",
+            link: "/installation/localhost",
           },
           {
-            text: "Step 2: Web Installer",
+            text: "Shared Hosting Installation",
+            link: "/installation/shared-hosting",
+          },
+          {
+            text: "VPS Server Installation",
+            link: "/installation/vps-server",
+          },
+          {
+            text: "Web Installer Wizard",
             link: "/installation/web-installer",
           },
-          // {
-          //   text: "Installation Service",
-          //   link: "/installation/installation-service",
-          // },
         ],
       },
       {
@@ -83,34 +87,37 @@ export default defineConfig({
         text: "Maintenance",
         collapsed: false,
         items: [
-          { text: "Application Update", link: "/maintenance/app-update" },
-          { text: "Application Backup", link: "/maintenance/app-backup" },
-          { text: "Application Restore", link: "/maintenance/app-restore" },
+          { text: "App Maintenance", link: "/maintenance/app-maintenance" },
           {
-            text: "Application Manual Update",
-            link: "/maintenance/app-manual-update",
+            text: "Custom Development",
+            link: "/maintenance/custom-development",
           },
         ],
       },
+      // {
+      //   text: "Troubleshooting",
+      //   collapsed: false,
+      //   items: [
+      //     {
+      //       text: "Installation Issues",
+      //       link: "/troubleshooting/installation",
+      //     },
+      //     { text: "Common Problems", link: "/troubleshooting/common-problems" },
+      //   ],
+      // },
       {
-        text: "Troubleshooting",
+        text: "Changelog",
         collapsed: false,
-        items: [
-          {
-            text: "Installation Issues",
-            link: "/troubleshooting/installation",
-          },
-          { text: "Common Problems", link: "/troubleshooting/common-problems" },
-        ],
+        items: [{ text: "Version History", link: "/changelog/" }],
       },
     ],
 
-    socialLinks: [
-      {
-        icon: "github",
-        link: "https://github.com/uilibrary/mentor-lms-doc.git",
-      },
-    ],
+    // socialLinks: [
+    //   {
+    //     icon: "github",
+    //     link: "https://github.com/uilibrary/mentor-lms-doc.git",
+    //   },
+    // ],
 
     footer: {
       message: "Released under the MIT License.",

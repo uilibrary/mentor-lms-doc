@@ -74,14 +74,14 @@ For enterprise customers or those requiring priority assistance, we offer premiu
 
 Contact our sales team for premium support pricing and options.
 
-## Self-Help Resources
+<!-- ## Self-Help Resources
 
 ### Troubleshooting Guides
 
 - [Installation Issues](/troubleshooting/installation)
 - [Common Problems](/troubleshooting/common-problems)
 - Performance Optimization
-- Error Code Reference
+- Error Code Reference -->
 
 <!-- ### Video Tutorials
 
@@ -102,13 +102,13 @@ For developers looking to extend Mentor LMS:
 - Theme customization guidelines
 - Best practices for modifications -->
 
-## Stay Updated
+<!-- ## Stay Updated
 
 Subscribe to our newsletter for:
 
 - Product updates and new features
 - Security patches and updates
 - Webinar announcements
-- Tips and best practices
+- Tips and best practices -->
 
-Follow us on social media for the latest news and announcements about Mentor LMS.
+<!-- Follow us on social media for the latest news and announcements about Mentor LMS. -->

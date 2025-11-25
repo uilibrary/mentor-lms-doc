@@ -6,8 +6,6 @@ Mentor LMS is a comprehensive learning management system built on the Laravel fr
 
 Developed with the latest Laravel technology, Mentor LMS offers a powerful yet flexible solution for various educational scenarios - from universities and schools to specialized training programs and individual instructors sharing their expertise.
 
-![Mentor LMS Dashboard](/configuration/settings-system.png)
-
 ## Key Benefits
 
 - **User-friendly Interface**: Intuitive design for administrators, instructors, and students

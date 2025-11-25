@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Mentor LMS"
-  text: "Comprehensive Learning Management System"
+  text: "Complete Learning Management System"
   tagline: Welcome to the official documentation for Mentor LMS, a powerful Laravel-based Learning Management System designed for educational institutions, instructors, and content creators.
   image:
     src: /banner.png
@@ -42,9 +42,6 @@ This documentation will guide you through installation, configuration, and usage
 
 ## Quick Links
 
-- [System Requirements](/installation/requirements)
-- [Installation Guide](/installation/purchase-extract)
-- [Version Update Guide](/maintenance/app-update)
-- [Configuration Steps](/configuration/system-info)
-- [User Roles Overview](/user-roles/administrator)
-- [Troubleshooting Common Issues](/troubleshooting/common-problems)
+- [Changelog](/changelog/)
+- [Installation Guide](/installation/requirements)
+- [Version Update Guide](/maintenance/app-maintenance)

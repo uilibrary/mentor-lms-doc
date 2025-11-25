@@ -16,18 +16,10 @@ Mentor LMS supports the following payment processors:
 2. **Stripe**
 3. **Mollie**
 4. **Paystack**
+5. **Razorpay**
+6. **SSLCommerz**
 
 You can enable one or multiple payment gateways based on your requirements and geographic location.
-
-## General Payment Settings
-
-Before configuring specific gateways, set up your general payment options:
-
-1. **Currency**: Select your primary currency (e.g., USD, EUR, GBP)
-2. **Currency Symbol Position**: Choose whether to display the currency symbol before or after the amount
-3. **Decimal Separator**: Select period (.) or comma (,) as decimal separator
-4. **Thousand Separator**: Choose your preferred thousand separator
-5. **Number of Decimals**: Set the number of decimal places to display in prices
 
 ## Configuring PayPal
 
@@ -128,11 +120,65 @@ Before configuring specific gateways, set up your general payment options:
 3. Copy your Public and Secret keys (both test and live versions)
 4. Configure webhook URL as: `https://your-domain.com/payment/paystack/webhook`
 
+## Configuring Razorpay
+
+![Payment Settings](/configuration/payment/razorpay.png)
+
+1. In the Payment Settings tab, find the Razorpay section
+2. Toggle the **Enabled** switch to activate Razorpay
+3. Select your preferred **Currency** (e.g., Indian Rupee - INR)
+4. Configure Test Mode:
+   - Toggle **Test Mode** to use test environment during development
+   - When enabled, you'll see "Using Test Environment" indicator
+   - The form will switch to show test credential fields
+5. Enter your Razorpay API credentials:
+   - **API Key**: Your Razorpay API key (test or live, depending on Test Mode)
+   - **API Secret**: Your Razorpay API secret key (test or live, depending on Test Mode)
+   - Helper text will indicate whether to use test or live credentials
+6. Click **Save Changes**
+
+### Obtaining Razorpay API Credentials
+
+1. Log in to your [Razorpay Dashboard](https://dashboard.razorpay.com/)
+2. Navigate to **Settings** > **API Keys**
+3. Click **Generate Key** to create new API credentials (if not already created)
+4. Copy your API Key ID and API Secret (both test and live versions)
+
+## Configuring SSLCommerz
+
+![Payment Settings](/configuration/payment/sslcommerz.png)
+
+1. In the Payment Settings tab, find the SSLCommerz section
+2. Toggle the **Enabled** switch to activate SSLCommerz
+3. Select your preferred **Currency** (e.g., Bangladeshi Taka - BDT)
+4. Configure Test Mode:
+   - Toggle **Test Mode** to use test environment during development
+   - When enabled, you'll see "Using Test Environment" indicator
+   - The form will switch to show test credential fields
+5. Enter your SSLCommerz credentials:
+   - **Store ID**: Your SSLCommerz store ID (test or live, depending on Test Mode)
+   - **Store Password**: Your SSLCommerz store password (test or live, depending on Test Mode)
+   - Helper text will indicate whether to use test or live credentials
+6. Click **Save Changes**
+
+### Obtaining SSLCommerz API Credentials
+
+1. Log in to your [SSLCommerz Dashboard](https://merchant.sslcommerz.com/)
+2. For **Test Credentials**:
+   - SSLCommerz provides default test credentials for sandbox testing
+   - Navigate to **Sandbox** section in your dashboard
+   - You can use the provided test Store ID and Store Password
+3. For **Live Credentials**:
+   - Navigate to **Settings** > **Store Settings**
+   - Your Store ID will be displayed in your account information
+   - For Store Password, go to **API Credentials** or **Integration** section
+   - Copy your Store ID and Store Password
+
 ## Testing Payment Gateways
 
 After configuring your payment gateways:
 
-1. Switch to Sandbox/Test mode if available
+1. Switch to Sandbox/Test mode
 2. Create a test course with a price
 3. Try purchasing the course using the test credentials
 4. Verify the transaction appears in both your payment gateway dashboard and your LMS admin panel
@@ -145,14 +191,7 @@ For testing in sandbox/test mode, use these cards:
 - **Stripe Test**: Card number `4242 4242 4242 4242`, any future expiry date, any 3-digit CVC
 - **Mollie Test**: Follow Mollie's testing documentation
 - **Paystack Test**: Card number `4084 0840 8408 4081`, any future expiry date, any 3-digit CVC
-
-## Payment Settings Best Practices
-
-- **Start in Test Mode**: Always configure and test in sandbox/test mode first
-- **Secure Credentials**: Never expose your API keys in public code or repositories
-- **Transaction Fees**: Be aware of transaction fees charged by each gateway
-- **Currency Support**: Verify that your chosen gateway supports your preferred currency
-- **SSL Certificate**: Ensure your site has a valid SSL certificate for secure transactions
-- **Regular Monitoring**: Regularly monitor transactions and reconcile with gateway reports
+- **Razorpay Test**: Card number `4111 1111 1111 1111`, any future expiry date, any 3-digit CVV
+- **SSLCommerz Test**: Use the test cards provided in SSLCommerz sandbox documentation
 
 After configuring your payment gateways, proceed to [SMTP Email Setup](/configuration/smtp) to ensure your system can send transactional emails.

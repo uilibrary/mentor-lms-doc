@@ -4,13 +4,31 @@ Mentor LMS provides a rich set of features designed to create a comprehensive le
 
 ## Course Management
 
-<!-- ![Course Management](/configuration/course-management.png) -->
-
 - **Course Creation**: Intuitive interface for building structured courses
 - **Curriculum Builder**: Organize content into sections and lessons
 - **Media Integration**: Support for video, audio, documents, and interactive content
 - **Course Settings**: Control pricing, visibility, and enrollment options
 - **Course Preview**: Test the student experience before publishing
+- **Lesson Resources**: Upload and manage downloadable resources for each lesson
+- **Live Classes**: Integration with Zoom for virtual classroom sessions
+- **Assignments**: Create and manage course assignments with submission tracking
+
+## Exam Management
+
+- **Standalone Exam System**: Complete examination platform independent of courses
+- **Exam Categories**: Organize exams with comprehensive category management
+- **Exam Wishlist & Checkout**: Full e-commerce functionality for exam enrollment
+- **Exam Coupons**: Discount codes and promotional pricing for exams
+- **7 Question Types**: MCQ, Multiple Select, Matching, Fill in the Blanks, Ordering, Short Answer, and Listening questions
+- **Exam Taking Interface**: Professional exam environment with countdown timer and fullscreen mode
+- **Question Navigator**: Track progress with status indicators and mark-for-review feature
+- **Auto-Submit**: Automatic submission when time expires
+- **Navigation Protection**: Warnings to prevent accidental exam exits
+- **Auto-Grading**: Automatic scoring for 6 question types
+- **Manual Grading**: Interface for evaluating short answer questions
+- **Results & Analytics**: Comprehensive score breakdown and performance analysis
+- **Attempt History**: Track all exam attempts with best score highlighting
+- **Exam Reviews**: Student rating and feedback system for exams
 
 ## User Dashboard
 
@@ -19,6 +37,16 @@ Mentor LMS provides a rich set of features designed to create a comprehensive le
 - **Progress Tracking**: Visual indicators of course completion and achievements
 - **Notifications**: Important alerts and updates in real-time
 - **Account Management**: Profile settings and security controls
+
+### Student Course Management
+
+- **Module Viewer**: Lesson completion tracking with organized tabs
+- **Live Class Access**: Direct join functionality for scheduled classes
+- **Assignment Hub**: Submission and result viewing in one place
+- **Quiz Management**: View quiz results and submission status
+- **Resources Center**: Easy access to all lesson materials with download options
+- **Certificates & Marksheets**: Download completion certificates and academic records
+- **Real-time Progress**: Visual course completion tracking
 
 ## Enrollment System
 
@@ -43,6 +71,14 @@ Mentor LMS provides a rich set of features designed to create a comprehensive le
 - **Automated Grading**: Instant results for objective questions
 - **Question Banks**: Create and reuse questions across courses
 - **Certificate Generation**: Award certificates upon successful completion
+
+## Certificate & Marksheet System
+
+- **Certificate Template Builder**: Create custom certificate designs in admin dashboard
+- **Marksheet Template Builder**: Design custom academic marksheets
+- **Template Management**: Update and modify existing templates
+- **Default Templates**: Set default certificate for automatic issuance
+- **Automatic Generation**: Certificates issued upon course completion
 
 ## Discussion Forums
 
@@ -76,6 +112,23 @@ Mentor LMS provides a rich set of features designed to create a comprehensive le
 - **Event Triggers**: Configure which actions generate notifications
 - **Notification Preferences**: User control over notification frequency
 
+## Multi-Language Support
+
+- **Language Management**: Admin dashboard for adding and managing languages
+- **Language Selector**: Available for all user roles across the platform
+- **Dynamic Translation**: Support for translating all content
+- **Translation Editor**: Organized interface with grouped sections for easy editing
+- **RTL/LTR Support**: Bidirectional text support for different language directions
+- **Default Language**: Set platform-wide default language
+
+## Security Features
+
+- **Google reCAPTCHA v3**: Integrated protection for login and registration pages
+- **reCAPTCHA Configuration**: Easy setup through admin dashboard
+- **Secure Transactions**: Industry-standard payment security protocols
+- **Session Management**: Enhanced security for user sessions
+- **Access Control**: Role-based permissions and restrictions
+
 ## Customizable Themes
 
 - **Visual Editor**: Front-end customization without coding
@@ -83,3 +136,15 @@ Mentor LMS provides a rich set of features designed to create a comprehensive le
 - **Responsive Design**: Optimal viewing on all devices
 - **Page Sections**: Enable or disable homepage components
 - **Navigation Control**: Customize menu items and structure
+- **Default Theme Selection**: Set platform-wide default theme from admin dashboard
+- **Mobile Optimization**: Floating action button for mobile navigation
+
+## Maintenance & System Management
+
+- **Application Update System**: Built-in version management and updates
+- **Backup Management**: Complete backup creation and restoration
+- **System Reboot**: Maintenance mode controls with admin verification
+- **Recovery Tools**: System diagnostics and repair utilities
+- **Installer Refresh**: Resolve installation issues with one click
+- **Maintenance Panel**: Always accessible for system recovery
+- **Cache Management**: Secure cache clearing without affecting user sessions

@@ -1,69 +1,93 @@
-# System Information
+# System Settings
 
-After completing the installation, you'll need to configure your system information to customize your Mentor LMS platform.
+After completing the installation, configure your system settings to customize your Mentor LMS platform.
 
 ## Accessing System Settings
 
 1. Log in to your admin dashboard
 2. Navigate to **Settings** in the sidebar menu
-3. Select **System Settings** from the dropdown options
+3. Select **System** from the dropdown options
 
 ![System Settings](/configuration/settings-system.png)
 
-## Available Configuration Options
+## Configuration Tabs
 
-The System Information section allows you to configure the following settings:
+The System Settings page is organized into multiple tabs:
 
-### General Information
+- **Website**: Core website information and branding
+- **Navbar**: Navigation bar configuration
+- **Footer**: Footer section settings
+- **Style**: Visual appearance and theme settings
 
-- **Site Title**: The name of your LMS platform that appears in the browser title and various parts of the application
-- **Site Description**: A brief description of your platform for SEO purposes
-- **Site Keywords**: Keywords to help improve search engine visibility
-- **Site Logo**: Your brand logo that appears in the header (recommended size: 180px × 50px)
-- **Site Favicon**: The small icon displayed in browser tabs (recommended size: 32px × 32px)
-- **Footer Logo**: Logo displayed in the footer section (recommended size: 180px × 50px)
+## Website Information
+
+### Basic Information
+
+- **Website Name**: The name of your LMS platform displayed across the application
+- **Website Title**: Browser title and page title for SEO
+- **Keywords**: Comma-separated keywords for search engine optimization (e.g., "LMS, Learning Management System, Courses, Mentor, LMS")
+- **Description**: Detailed description of your platform for SEO and marketing purposes
+- **Author**: Platform author or organization name
+- **Slogan**: A catchy tagline for your platform (e.g., "A course based video CMS")
 
 ### Contact Information
 
-- **Contact Email**: Primary email for user inquiries
-- **Contact Phone**: Phone number for direct contact
-- **Contact Address**: Physical address for your organization (displayed in footer)
+- **System Email**: Primary email address for system notifications and user inquiries
+- **Phone**: Contact phone number for support
 
-### Social Media Links
+### Media Assets
 
-- **Facebook URL**: Link to your Facebook page
-- **Twitter URL**: Link to your Twitter/X profile
-- **Instagram URL**: Link to your Instagram profile
-- **LinkedIn URL**: Link to your LinkedIn page
-- **YouTube URL**: Link to your YouTube channel
+- **Logo Dark**: Logo displayed when using dark theme or dark backgrounds
+- **Logo Light**: Logo displayed when using light theme or light backgrounds
+- **Favicon**: Small icon displayed in browser tabs (recommended: 32px × 32px, ICO or PNG format)
+- **Banner**: Hero banner or promotional image for homepage
 
-### SEO Settings
+## Additional Settings
 
-- **Meta Title Format**: Format for page titles across the site
-- **Meta Description**: Default description for pages without specific descriptions
-- **Open Graph Image**: Default image used when sharing links to your site
+### Website Direction
 
-## How to Update System Information
+Controls the text direction of your website:
 
-1. Fill in the relevant fields with your platform information
-2. Upload your logo and favicon images by clicking the upload buttons
-3. Ensure all URLs include the full address (e.g., https://facebook.com/youraccount)
-4. Click the **Save Changes** button at the bottom of the form
+- **None**: Uses default direction based on language
+- **LTR** (Left-to-Right): For languages like English, Spanish, French
+- **RTL** (Right-to-Left): For languages like Arabic, Hebrew, Urdu
 
-## Best Practices
+### Default Theme
 
-- **Logo Size**: Optimize your logo for web display (PNG or SVG format recommended)
-- **Contact Information**: Ensure your contact email is monitored regularly
-- **SEO Fields**: Include relevant keywords in your site title and description
-- **Social Media**: Only include social media platforms you actively maintain
+Sets the default appearance theme for visitors:
 
-## Impact of System Settings
+- **System**: Automatically matches visitor's system preference (light or dark mode)
+- **Light**: Always displays light theme by default
+- **Dark**: Always displays dark theme by default
 
-These configurations affect several aspects of your platform:
+### Language Selector
 
-- User experience and brand recognition
-- SEO performance and search engine visibility
-- Contact accessibility for users with questions or issues
-- Professional appearance and credibility of your platform
+Controls the visibility of the language selection dropdown:
 
-After configuring your System Information, proceed to [Homepage Selection](/configuration/homepage) to choose and customize your site's landing page.
+- **Show**: Displays language selector for users to switch languages
+- **Hide**: Hides the language selector from the interface
+
+### Course Selling Currency
+
+Select the currency for all course pricing throughout the platform:
+
+- Default: **USD (US Dollar)**
+- This currency will be displayed across the entire website for course prices
+- Affects course listings, checkout, and payment processing
+
+### Course Selling Tax (%)
+
+Set the tax percentage applied to course purchases:
+
+- Enter a numeric value (e.g., 5 for 5% tax)
+- This tax will be automatically calculated and added during checkout
+- Applied to all course purchases platform-wide
+
+### Instructor Revenue (%)
+
+Configure the revenue share percentage for instructors:
+
+- Enter a numeric value (e.g., 70 for 70% instructor revenue)
+- Determines how much of each sale goes to the course instructor
+- The remaining percentage is the admin/platform commission
+- Example: If set to 70%, instructor receives 70% and admin/platform keeps 30%

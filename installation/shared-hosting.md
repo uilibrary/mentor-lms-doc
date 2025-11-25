@@ -1,30 +1,12 @@
-# Requirements
+# Shared Hosting Installation
 
-Before starting the web installation process, you need to purchase Mentor LMS and extract the package files to your server. Then ensure your server meets the following requirements for optimal performance and functionality.
-
-## Purchase Process
-
-1. Visit [MentorLMS on CodeCanyon](https://codecanyon.net/item/mentor-lms-learning-management-system/59092700) or search for "MentorLMS" on CodeCanyon
-2. Choose your preferred license type (Regular or Extended)
-3. Complete the purchase process on CodeCanyon
-4. After purchase, download the package file (ZIP format) from your CodeCanyon downloads
-5. Save your purchase code - you'll need it for take support from MentorLMS team
+This guide will help you install Mentor LMS on a shared hosting server (cPanel, Plesk, or similar hosting environments).
 
 ## Server Requirements
 
 ### PHP Version
 
 - **PHP >= 8.2** (PHP 8.3 recommended for best performance)
-
-<!-- ### Web Server
-
-- Apache (with mod_rewrite enabled) or Nginx
-- HTTPS support recommended for production environments
-
-### Database
-
-- MySQL 5.7+ or MariaDB 10.3+
-- Minimum 100MB database space (recommended: 1GB+ for growth) -->
 
 ## PHP Extensions
 
@@ -61,3 +43,44 @@ Recommended PHP configuration for handling large video uploads:
 - `max_input_time`: 600 (recommended)
 - `upload_tmp_dir`: Path to a directory with sufficient space
 - `file_uploads`: On
+
+## Installation Steps
+
+### Step 1: Create Database
+
+1. Log in to your **cPanel** or hosting control panel
+2. Navigate to **MySQL Databases** section
+3. Create a new database and collect the credentials.
+   - Database name: `your_database_name`
+   - Database username: `your_database_username`
+   - Database password: `your_database_password`
+
+### Step 2: Upload Files
+
+1. Log in to your cPanel
+2. Open **File Manager**
+3. Navigate to `public_html` directory (or your domain's root directory)
+4. Click **Upload** button
+5. Upload the Mentor LMS ZIP file
+6. Once uploaded, select the ZIP file
+7. Click **Extract** to extract all files
+8. After extraction, rename `.env.example` file to `.env`
+
+### Step 3: Access Web Installer
+
+1. Open your web browser
+2. Navigate to your domain: `https://your-domain.com`
+3. You will be automatically redirected to the installation wizard
+4. If not redirected, manually visit: `https://your-domain.com/install/step-1`
+
+## Need Help?
+
+If you encounter issues during installation:
+
+1. Check our [Troubleshooting Guide](/troubleshooting/installation)
+2. Review [Common Problems](/troubleshooting/common-problems)
+3. Contact support at [support@ui-lib.com](mailto:support@ui-lib.com)
+
+::: tip Professional Installation
+If you prefer not to install manually, we offer professional installation services. Our team will handle the complete setup for you.
+:::

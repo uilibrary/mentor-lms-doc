@@ -1,78 +1,113 @@
-# Homepage Selection
+# Page Settings
 
-Mentor LMS offers multiple homepage templates to choose from, allowing you to select the most appropriate layout for your learning platform.
+Mentor LMS provides flexible page management with pre-designed homepage templates and custom page creation capabilities.
 
-## Accessing Homepage Settings
+## Accessing Page Settings
 
 1. Log in to your admin dashboard
 2. Navigate to **Settings** in the sidebar menu
-3. Select **Page Settings** from the dropdown options
+3. Select **Pages** from the dropdown options
 
 ![Page Settings](/configuration/settings-pages.png)
 
-## Available Homepage Templates
+## Available Home Pages
 
-Mentor LMS provides several pre-designed homepage templates optimized for different use cases:
+The Page Settings section displays all available homepage templates organized by type. You can filter templates using the **Type** dropdown in the top-right corner.
 
-### Template 1: Collaborative Learning Hub (Multi-Instructor)
+### Collaborative Templates
 
-The default template featuring a hero section, course categories, featured courses, and instructor highlights. Ideal for most learning platforms with diverse course offerings. This template is designed for collaborative course creation mode, allowing multiple instructors to work together.
+Designed for platforms with multiple instructors collaborating on courses:
 
-### Template 2: Collaborative Course Spotlight (Multi-Instructor)
+#### Collaborative 1
 
-A template optimized for platforms focusing on a single course or a small set of premium courses. Features a prominent call-to-action and detailed course preview. This template works with collaborative course creation mode, supporting multiple instructors per course.
+- **Type**: Collaborative
+- **Use Case**: Best for Multiple Instructors
+- **Title**: Mentor LMS - Home Page 1
+- **Sections**: 10 customizable sections
+- **Features**: Hero section, course categories, featured courses, and instructor highlights
 
-### Template 3: Traditional Academy (Single-Instructor)
+#### Collaborative 2
 
-Designed with an academic institution aesthetic, this template includes announcement banners, academic calendar integration, and a more structured layout. This template is optimized for administrative course creation mode, where each course has a single instructor.
+- **Type**: Collaborative
+- **Use Case**: Best for Multiple Instructors
+- **Title**: Mentor LMS - Home Page 2
+- **Sections**: 10 customizable sections
+- **Features**: Course spotlight with prominent call-to-action and detailed preview
 
-## Selecting Your Homepage Template
+#### Collaborative 3
 
-1. In the Page Settings section, find the **Homepage Template** dropdown
-2. Click to view available template options
-3. Select your preferred template from the list
-4. Preview the template using the **Preview** button (opens in a new tab)
-5. Once satisfied with your selection, click **Save Changes**
+- **Type**: Collaborative
+- **Use Case**: Best for Multiple Instructors
+- **Title**: Mentor LMS - Online Learning Platform
+- **Sections**: 11 customizable sections
+- **Features**: Modern online learning platform layout with enhanced features
 
-## Customizing Your Homepage
+### Administrative Templates
 
-After selecting a template, you can customize individual sections of your homepage:
+Optimized for platforms where each course has a single instructor:
 
-1. Navigate to **Homepage Management** in the sidebar menu
-2. Click on **Customize Homepage**
-3. Use the visual editor to modify:
-   - Hero section content and images
-   - Featured categories
-   - Promotional sections
-   - Testimonial sections
-   - Call-to-action blocks
+#### Administrative 1
 
-For detailed instructions on customizing your homepage, refer to the [Homepage Customization](/customization/homepage) guide.
+- **Type**: Administrative
+- **Use Case**: Best for Single Instructor
+- **Title**: Mentor LMS - Advanced Learning Platform
+- **Sections**: 10 customizable sections
+- **Features**: Academic institution aesthetic with structured layout
 
-## Setting a Custom Page as Homepage
+#### Administrative 2
 
-If you prefer to use a custom page as your homepage:
+- **Type**: Administrative
+- **Use Case**: Best for Single Instructor
+- **Title**: Mentor LMS - Advanced Learning Platform
+- **Sections**: 10 customizable sections
+- **Features**: Professional learning platform design for single-instructor courses
 
-1. First, create your custom page under **Pages** > **Add New Page**
-2. Return to **Settings** > **Page Settings**
-3. In the **Custom Homepage** dropdown, select your created page
-4. Enable the **Use Custom Homepage** toggle
-5. Click **Save Changes**
+## Custom Pages
 
-## Mobile Responsiveness
+The Custom Pages section allows you to create additional pages for your platform with SEO optimization.
 
-All homepage templates are fully responsive and will adapt to different screen sizes. However, consider these best practices:
+### Available Custom Pages
 
-- Preview your selected template on multiple devices
-- Ensure hero images look good on smaller screens
-- Keep important calls-to-action visible on mobile
-- Test navigation menus on different screen sizes
+Mentor LMS includes several pre-configured custom pages:
 
-## Best Practices for Homepage Selection
+- **About Us** (`about-us`): Platform introduction and mission statement
+- **Our Team** (`our-team`): Team member profiles and information
+- **Careers** (`careers`): Job opportunities and career information
+- **Address** (`contact-us`): Contact information and office details
+- **Cookie Policy** (`cookie-policy`): Cookie usage and tracking policies
+- **Terms and Conditions** (`terms-and-conditions`): User agreement and legal terms
+- **Privacy Policy** (`privacy-policy`): Data protection and privacy information
+- **Refund Policy** (`refund-policy`): Refund conditions and processes
 
-- **Consider Your Audience**: Choose a template that resonates with your target learners
-- **Content Focus**: Select a template that highlights your key offerings
-- **Conversion Goals**: Ensure your template supports your primary conversion objectives
-- **Brand Consistency**: Select a template that can be customized to match your brand identity
+### Custom Page Information
 
-After configuring your homepage, proceed to [Storage Setup](/configuration/storage) to configure where your course files and media will be stored.
+Each custom page includes:
+
+- **Name**: Display name of the page
+- **Slug**: URL-friendly identifier (e.g., `about-us` becomes `/about-us`)
+- **Title**: SEO page title
+- **Meta Description**: SEO description for search engines
+- **Meta Keywords**: SEO keywords for better discoverability
+
+### Creating a New Custom Page
+
+1. Click the **Add New Page** button in the Custom Pages section
+2. Fill in the required information:
+   - **Name**: Page display name
+   - **Slug**: URL path (automatically generated from name)
+   - **Title**: SEO-optimized page title
+   - **Meta Description**: Brief description for search engines (150-160 characters)
+   - **Meta Keywords**: Comma-separated keywords
+3. Click **Save** to create the page
+
+::: tip Page Slug Format
+The slug becomes your page URL path. For example, a slug `cookie-policy` will be accessible at `https://your-domain.com/cookie-policy`
+:::
+
+### Managing Custom Pages
+
+For each custom page, you can:
+
+- **Edit**: Click the three-dot menu (⋮) and select edit to modify page content
+- **Delete**: Remove pages that are no longer needed
+- **View**: Visit the page on your live site
