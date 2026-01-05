@@ -73,6 +73,58 @@ Recommended PHP configuration for handling large video uploads:
 3. You will be automatically redirected to the installation wizard
 4. If not redirected, manually visit: `https://your-domain.com/install/step-1`
 
+::: tip Professional Installation
+If you are not able to install using the web installer, you can follow the manual installation processes.
+:::
+
+### Step 4(Optional): Manual Installation
+
+Follow these steps to complete the installation manually:
+
+#### Edit the `.env` file
+
+1. Edit the `.env` file and update the following database credentials:
+   ```env
+   DB_DATABASE=your_database_name
+   DB_USERNAME=your_database_username
+   DB_PASSWORD=your_database_password
+   ```
+2. Save the changes
+
+#### Create the installed flag
+
+1. In your File Manager, navigate to the `storage/app/public` directory
+2. Create a new file named `installed` (no extension need)
+3. Leave this file empty, it just needs to exist
+
+#### Import the database manually
+
+1. In your cPanel, open **phpMyAdmin**
+2. Select your database from the left sidebar
+3. Click on the **Import** tab
+4. Click **Choose file** and select the `mentor-lms.sql` file from your project
+   - **Download the database file**: [mentor-lms.sql](https://demo.mentor-lms.com/mentor-lms.sql)
+5. Click **Go** to import the database
+
+#### Temporary Admin Login
+
+After completing all the manual processes, you can log in using the default admin credentials:
+
+- Email: `admin@example.com`
+- Password: `12345678`
+
+::: warning Security Note
+These are default credentials and should be changed immediately after your first login for security reasons.
+:::
+
+<!-- Once logged in, please change these credentials immediately from the admin dashboard for security reasons. -->
+
+#### Visit your domain
+
+1. Open your web browser
+2. Navigate to your domain: `https://your-domain.com`
+3. The application should now be accessible and ready to use
+
 ## Need Help?
 
 If you encounter issues during installation:
@@ -80,7 +132,3 @@ If you encounter issues during installation:
 1. Check our [Troubleshooting Guide](/troubleshooting/installation)
 2. Review [Common Problems](/troubleshooting/common-problems)
 3. Contact support at [support@ui-lib.com](mailto:support@ui-lib.com)
-
-::: tip Professional Installation
-If you prefer not to install manually, we offer professional installation services. Our team will handle the complete setup for you.
-:::

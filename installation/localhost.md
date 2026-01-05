@@ -105,4 +105,11 @@ php artisan serve
 ```
 
 This will start the server on `http://localhost:8000`
+
+Also you have to run the assets compilation:
+
+```bash
+npm run build
+```
+
 :::

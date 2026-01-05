@@ -81,6 +81,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "Homepage Customization", link: "/customization/homepage" },
+          { text: "Color System", link: "/customization/color-system" },
         ],
       },
       {
@@ -91,6 +92,10 @@ export default defineConfig({
           {
             text: "Custom Development",
             link: "/maintenance/custom-development",
+          },
+          {
+            text: "Manual Update",
+            link: "/maintenance/manual-update",
           },
         ],
       },
