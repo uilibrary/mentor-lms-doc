@@ -103,7 +103,8 @@ Follow these steps to complete the installation manually:
 2. Select your database from the left sidebar
 3. Click on the **Import** tab
 4. Click **Choose file** and select the `mentor-lms.sql` file from your project
-   - **Download the database file**: [mentor-lms.sql](https://demo.mentor-lms.com/mentor-lms.sql)
+   <!-- - **Download the database file**: [mentor-lms.sql](https://demo.mentor-lms.com/mentor-lms.sql) -->
+   - **Download the database file**: [database.zip](https://github.com/uilibrary/mentor-lms-doc/raw/main/public/database.zip)
 5. Click **Go** to import the database
 
 #### Temporary Admin Login

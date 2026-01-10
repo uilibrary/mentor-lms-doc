@@ -4,73 +4,33 @@ Choose your preferred deployment method for installing Mentor LMS on a VPS serve
 
 ## Docker
 
-### Quick Start
+We provide a complete Docker setup package with all necessary configuration files and step-by-step instructions.
 
-**1. Build the Application**
+### Installation Steps
 
-```bash
-docker build -t mentor-lms .
-```
+**1. Download Docker Setup**
 
-**2. Setup Options**
+Download the Docker setup ZIP file: [docker-setup.zip](https://github.com/uilibrary/mentor-lms-doc/raw/main/public/docker-setup.zip)
 
-**Option A: With Docker MySQL (Recommended)**
+**2. Extract the ZIP File**
 
-```bash
-# Create network
-docker network create mentor-network
+Extract the ZIP file into the **root directory of your project**.
 
-# Run MySQL container
-docker run -d --name mysql --network mentor-network \
-  -e MYSQL_ROOT_PASSWORD=rootpassword \
-  -e MYSQL_DATABASE=mentor_lms \
-  -e MYSQL_USER=mentor_user \
-  -e MYSQL_PASSWORD=your_password \
-  -p 3306:3306 mysql:8.0
+After extracting, you will see:
 
-# Run application
-docker run -d --name mentor-lms-app --network mentor-network -p 8080:80 mentor-lms
-```
+- `root/docker/` directory
+  - Inside this directory, there are some other files and folders with a `README.md` file (`README.md` have the **full step-by-step instructions**)
+- `root/docker-compose.yml` file
 
-**Database Configuration:**
+**3. Follow the Instructions**
 
-- Host: `mysql`
-- Port: `3306`
-- Database: `mentor_lms`
-- Username: `mentor_user`
-- Password: `your_password`
+Please follow the instructions provided in the `root/docker/README.md` file to run the project using Docker.
 
-**Option B: With External MySQL**
+After completing these steps, try running the containers again.
 
-```bash
-docker run -d -p 8080:80 --name mentor-lms-app mentor-lms
-```
-
-**3. Access Application**
-
-1. Open your web browser
-2. Navigate to your domain: `https://your-domain.com`
-3. You will be automatically redirected to the installation wizard
-4. If not redirected, manually visit: `https://your-domain.com/install/step-1`
-
-#### Management Commands
-
-```bash
-# View containers
-docker ps -a
-
-# View logs
-docker logs mentor-lms-app
-
-# Access container shell
-docker exec -it mentor-lms-app bash
-
-# Stop and remove
-docker stop mentor-lms-app && docker rm mentor-lms-app
-
-# Restart services
-docker restart mentor-lms-app mysql
-```
+::: tip Need Help?
+If you face any issues during the Docker setup, please contact our support team at [support@ui-lib.com](mailto:support@ui-lib.com) with the error logs, and we'll help you further.
+:::
 
 ---
 
