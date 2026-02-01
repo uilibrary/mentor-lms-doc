@@ -21,7 +21,19 @@ features:
   - icon: 🧠
     title: Complete Learning Platform
     details: Create, organize, and deliver structured educational content with a powerful course management system
-  - icon: 💰
+  - icon: �
+    title: Course Management System
+    details: Comprehensive course creation with curriculum builder, media integration, and live class support
+  - icon: 📝
+    title: Exam Management System
+    details: Standalone examination platform with 7 question types, auto-grading, and detailed analytics
+  - icon: 🏆
+    title: Certificate & Marksheet Builder
+    details: Custom template builders for both course completion certificates and exam marksheets
+  - icon: 💾
+    title: Multiple Storage Options
+    details: Flexible storage with Local, Amazon S3, and Cloudflare R2 support for optimal performance
+  - icon: �💰
     title: Multi-payment Integrations
     details: Accept payments via PayPal, Stripe, Mollie, and Paystack with automated instructor payouts
   - icon: 👨‍👩‍👧‍👦
@@ -30,9 +42,6 @@ features:
   - icon: 🛠️
     title: Easy Setup & Configuration
     details: User-friendly web installer and comprehensive admin dashboard for quick setup
-  - icon: 📊
-    title: Quizzes & Assessments
-    details: Create tests and assignments with automated grading and detailed student progress tracking
   - icon: 🎨
     title: Customizable Interface
     details: Easily customize your homepage and platform appearance with the visual editor

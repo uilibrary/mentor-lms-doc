@@ -63,7 +63,7 @@ If you encounter any errors during `composer install`, make sure your PHP versio
 
 After installing dependencies you can prepare the database using either manual artisan commands or the built-in web installer.
 
-#### Option 1: Artisan Commands
+### Option 1: Artisan Commands
 
 1. From the project root, navigate to `storage/app/public/`
 2. Create an empty file named `installed` (no extension needed)
@@ -80,14 +80,38 @@ Or run both migration and seeding in a single command:
 php artisan migrate:refresh --seed
 ```
 
-#### Option 2: Web Installer on Localhost
+To create the `symbolic` link, you may use the `storage:link` Artisan command:
 
-1. Open your browser and visit `http://localhost:8000` (or the URL shown in your terminal)
-2. You will be redirected to the installation wizard automatically
-3. If not redirected, navigate directly to `http://localhost:8000/install/step-1`
-4. Complete each wizard step as described in the [Web Installer Guide](/installation/web-installer)
+```bash
+php artisan storage:link
+```
 
-### Step 6: Start Development Server
+#### Start the local development server:
+
+```bash
+composer dev
+```
+
+This command will start the application on `http://localhost:8000`
+
+::: tip Alternative Method
+You can also use PHP's built-in server:
+
+```bash
+php artisan serve
+```
+
+This will start the server on `http://localhost:8000`
+
+Also you have to run the assets compilation:
+
+```bash
+npm run dev
+```
+
+:::
+
+### Option 2: Web Installer on Localhost
 
 Start the local development server:
 
@@ -109,7 +133,12 @@ This will start the server on `http://localhost:8000`
 Also you have to run the assets compilation:
 
 ```bash
-npm run build
+npm run dev
 ```
 
 :::
+
+1. Open your browser and visit `http://localhost:8000` (or the URL shown in your terminal)
+2. You will be redirected to the installation wizard automatically
+3. If not redirected, navigate directly to `http://localhost:8000/install/step-1`
+4. Complete each wizard step as described in the [Web Installer Guide](/installation/web-installer)

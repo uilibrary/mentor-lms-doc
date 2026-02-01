@@ -12,11 +12,11 @@ Mentor LMS supports multiple storage options for your course files, videos, and 
 
 ## Available Storage Options
 
-Mentor LMS offers two primary storage options:
+Mentor LMS offers three storage options:
 
 ### Local Storage
 
-The default option that stores all files on your web server. This is suitable for smaller installations or when starting out.
+The default option that stores all files on your web server. Suitable for smaller installations or when starting out.
 
 **Pros:**
 
@@ -48,6 +48,23 @@ Store your files on Amazon's secure and scalable cloud storage service. Recommen
 - Additional costs based on storage and bandwidth usage
 - More complex initial setup
 
+### Cloudflare R2 Storage
+
+S3-compatible object storage from Cloudflare with zero egress fees. Cost-effective alternative to Amazon S3.
+
+**Pros:**
+
+- S3-compatible API
+- No egress/bandwidth charges
+- Competitive pricing
+- Global distribution
+- Simple integration
+
+**Cons:**
+
+- Requires a Cloudflare account
+- Storage costs apply
+
 ## Configuring Local Storage
 
 1. In Storage Settings, select **Local Storage** as your storage driver
@@ -61,7 +78,6 @@ For local storage, ensure your server has sufficient disk space for your anticip
 
 1. In Storage Settings, select **Amazon S3** as your storage driver
 2. Enter the following AWS credentials:
-
    - **AWS Access Key ID**: Your AWS account access key
    - **AWS Secret Access Key**: Your AWS account secret key
    - **AWS Default Region**: The AWS region where your bucket is located (e.g., us-east-1)
@@ -74,7 +90,7 @@ For local storage, ensure your server has sufficient disk space for your anticip
 Keep your AWS credentials secure. Never share your access keys or expose them in client-side code.
 :::
 
-## Setting Up an Amazon S3 Bucket
+### Getting Amazon S3 Bucket credentials
 
 If you're using Amazon S3 storage, follow these steps to create and configure your bucket:
 
@@ -98,6 +114,35 @@ If you're using Amazon S3 storage, follow these steps to create and configure yo
 ```
 
 6. Create an IAM user with S3 access and generate access keys
+
+## Configuring Cloudflare R2 Storage
+
+1. In Storage Settings, select **Cloudflare R2** as your storage driver
+2. Enter the following Cloudflare R2 credentials:
+   - **Account ID or Access Key**: Your Cloudflare account ID or R2 access key ID
+   - **Secret Access Key**: Your R2 secret access key
+   - **Endpoint**: Your R2 bucket endpoint URL (e.g., https://[account-id].r2.cloudflarestorage.com)
+   - **Public URL**: The public URL for accessing files (e.g., https://pub-[hash].r2.dev)
+   - **Bucket Name**: The name of your R2 bucket
+   - **Region**: The region (typically `auto` for R2)
+
+3. Click **Save Changes**
+
+### Getting Cloudflare R2 Credentials
+
+1. Log in to your [Cloudflare Dashboard](https://dash.cloudflare.com/)
+2. Navigate to **R2** from the sidebar
+3. Click **Create bucket** and name your bucket
+4. Go to **Manage R2 API Tokens**
+5. Click **Create API Token**
+6. Set permissions (Read & Write recommended)
+7. Copy the **Access Key ID** and **Secret Access Key**
+8. Your endpoint will be: `https://[account-id].r2.cloudflarestorage.com`
+9. Enable public access for your bucket to get the **Public URL**
+
+::: tip
+Cloudflare R2 offers 10 GB free storage per month with zero egress fees, making it cost-effective for media-heavy applications.
+:::
 
 ## Best Practices for Media Storage
 

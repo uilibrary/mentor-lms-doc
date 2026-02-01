@@ -2,6 +2,22 @@
 
 All notable changes, improvements, and fixes to Mentor LMS are documented here. Each version includes detailed information about new features, bug fixes, and improvements.
 
+## Version 3.4.3 - 31 January 2026
+
+- **New**: Cloudflare R2 storage option.
+- **Fix**: Job circular salary display issue.
+- **Fix**: Live class zoom integration warning show issue.
+- **Fix**: Lesson resources delete issue during lesson delete.
+- **Improve**: Chunked upload file handling system.
+
+## Version 3.4.2 - 21 January 2026
+
+- **Fix**: Job circular salary display issue.
+- **Fix**: Exam enrollment issue during payment.
+- **Fix**: Exam question answer scoring issue.
+- **Fix**: Exam best attempt score finding issue.
+- **Improve**: Ability to separate the price instead of plain number based on system currency.
+
 ## Version 3.4.1 - 2 January 2026
 
 - **Fix**: Responsive issue from the Home-4 and Home-5.

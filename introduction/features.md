@@ -12,6 +12,10 @@ Mentor LMS provides a rich set of features designed to create a comprehensive le
 - **Lesson Resources**: Upload and manage downloadable resources for each lesson
 - **Live Classes**: Integration with Zoom for virtual classroom sessions
 - **Assignments**: Create and manage course assignments with submission tracking
+- **Course Categories**: Organize courses with comprehensive category management
+- **Course Reviews**: Student rating and feedback system for courses
+- **Course Progress Tracking**: Monitor student advancement through course content
+- **Drip Content**: Release course content gradually based on schedule or completion
 
 ## Exam Management
 
@@ -120,6 +124,16 @@ Mentor LMS provides a rich set of features designed to create a comprehensive le
 - **Translation Editor**: Organized interface with grouped sections for easy editing
 - **RTL/LTR Support**: Bidirectional text support for different language directions
 - **Default Language**: Set platform-wide default language
+
+## Storage Management
+
+- **Multiple Storage Options**: Support for Local, Amazon S3, and Cloudflare R2 storage
+- **Local Storage**: Default option storing files on your web server
+- **Amazon S3 Storage**: Scalable cloud storage with global CDN integration
+- **Cloudflare R2 Storage**: S3-compatible storage with zero egress fees
+- **Flexible Configuration**: Easy switching between storage providers
+- **File Management**: Organized storage structure for course materials and media
+- **Storage Optimization**: Efficient file handling for better performance
 
 ## Security Features
 
