@@ -30,6 +30,9 @@ features:
   - icon: 🏆
     title: Certificate & Marksheet Builder
     details: Custom template builders for both course completion certificates and exam marksheets
+  - icon: 🎨
+    title: Drag & Drop Page Builder
+    details: No-code visual page builder with 40+ pre-built sections and extensive component library
   - icon: 💾
     title: Multiple Storage Options
     details: Flexible storage with Local, Amazon S3, and Cloudflare R2 support for optimal performance

@@ -80,7 +80,11 @@ export default defineConfig({
         text: "Customization",
         collapsed: false,
         items: [
-          { text: "Homepage", link: "/customization/homepage" },
+          {
+            text: "Frontend (New System)",
+            link: "/customization/frontend",
+          },
+          { text: "Homepage (Old System)", link: "/customization/homepage" },
           { text: "Color System", link: "/customization/color-system" },
           { text: "Translation", link: "/customization/translation" },
         ],

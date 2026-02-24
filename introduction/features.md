@@ -143,6 +143,18 @@ Mentor LMS provides a rich set of features designed to create a comprehensive le
 - **Session Management**: Enhanced security for user sessions
 - **Access Control**: Role-based permissions and restrictions
 
+## Drag & Drop Page Builder
+
+- **Visual Page Editor**: Real-time drag & drop interface for page updates and creation
+- **40+ Pre-built Sections**: Professional, ready-to-use section templates
+- **Component Library**: Extensive collection of draggable components (Layout, Elements, Forms, etc.)
+- **Responsive Design**: Mobile-first editing with device preview
+- **Media Manager**: Centralized upload and management of media files
+- **Layout Structure View**: Visual hierarchical page structure overview
+- **Color System**: Full color customization with instant site-wide changes
+- **Frontend Management**: Complete control over website pages and settings
+- **No-Code Solution**: Create professional pages without writing any code
+
 ## Customizable Themes
 
 - **Visual Editor**: Front-end customization without coding

@@ -2,6 +2,35 @@
 
 All notable changes, improvements, and fixes to Mentor LMS are documented here. Each version includes detailed information about new features, bug fixes, and improvements.
 
+## Version 4.0.0 - 23 February 2026
+
+- **New**: Introduced comprehensive No-Code Drag & Drop Web Builder for creating custom landing pages or edit existing pages.
+- **New**: Implemented visual page editor with real-time preview and responsive design support
+- **New**: Added 40+ pre-built UI components organized in categories:
+  - Layout components (Container, Grid, Flex, Section)
+  - Typography components (Heading, Paragraph, Text, List)
+  - Media components (Image, Video, Icon)
+  - Form components (Input, Button, Textarea, Select, Checkbox, Radio)
+  - Navigation components (Navbar, Link, Menu)
+  - Interactive components (Accordion, Tabs, Modal, Dropdown)
+- **New**: Built-in Tailwind CSS class editor with autocomplete for 3,385+ utility classes
+- **New**: Implemented drag-and-drop interface for intuitive page building
+- **New**: Added layer management system for organizing page elements
+- **New**: Created component customization panel with:
+  - Style editor with Tailwind CSS integration
+  - Content editor for text and media
+  - Settings panel for component-specific options
+- **New**: Integrated media library for managing images and assets
+- **New**: Added responsive design controls for mobile, tablet, and desktop views
+- **New**: Implemented element duplication and deletion functionality
+- **New**: Built comprehensive validation system for page elements
+- **New**: Added project and page management system
+- **New**: Created dynamic component registry for extensible architecture
+- **Fix**: The `Summary` spelling issue from the course player.
+- **Fix**: Offline payment verify or reject issue.
+- **Fix**: Tailwind CSS gradient classes compilation in editor preview.
+- **Improve**: Enabled Paystack available currencies.
+
 ## Version 3.4.3 - 31 January 2026
 
 - **New**: Cloudflare R2 storage option.
