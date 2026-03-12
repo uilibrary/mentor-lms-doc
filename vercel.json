@@ -1,6 +1,14 @@
 {
-  "buildCommand": "npm run docs:build",
-  "outputDirectory": ".vitepress/dist",
-  "installCommand": "npm install",
-  "framework": "vitepress"
+  "redirects": [
+    {
+      "source": "/:path*.html",
+      "destination": "https://mentor-lms.com/docs/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://mentor-lms.com/docs/$1",
+      "permanent": true
+    }
+  ]
 }
